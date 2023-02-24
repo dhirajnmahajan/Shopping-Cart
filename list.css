@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://preply.com/wp-content/uploads/2018/04/shopping_bags.jpg');
+    width: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 18px;
+    font-family: courier, monospace;
+  }
+  .container{
+    border: 1px solid black;
+    box-shadow: 0px 0px 7px 4px rgb(139, 139, 139);
+    border-radius: 15px ;
+    padding: 0 40px;
+  }
+  .container .main h1{
+    text-align: center;
+  }
+  form {
+    color: #000000;
+    font-size: 22px;
+    padding: 2px 25px;
+    font-weight: 800;
+    
+  }
+  form label{
+    text-decoration: underline white;
+  }
+  input[type="text"]{
+    background-color : #f8f8f8;
+  }
+  
+  #addNeed {
+    background-color : #f8f8f8;
+    color: #b92ff5;
+  }
+  
+  #addHave {
+    background-color : #f8f8f8;
+    color: #b92ff5;
+  }
+  
+  h1 {
+    color: #c10404;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px rgb(64, 76, 246);
+  }
+  
+  h2 {
+    color: #eea845;
+    font-size: 30px;
+    letter-spacing: -2px;
+    text-align: center;
+    text-decoration: underline grey;
+  
+  }
+  .list {
+    color: #555;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #dedede;
+  }
+  .list li {
+    list-style: none;
+    background-color : #f8f8f8;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #3498db;
+    margin-bottom: 3px;
+  }
+  li a {
+    float: right;
+    text-decoration: none;
+    color: red;
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+         (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+         (min-resolution: 2dppx),             /* The standard way */
+         (min-resolution: 192dpi)             /* dppx fallback */
+  {
+      body {
+          background-image: url('linedpaper/linedpaper_@2x.png');
+      }
+  }
+  
